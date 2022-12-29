@@ -1,0 +1,5 @@
+- name: Configure Pi Hole Server
+  hosts: all
+  gather_facts: false
+  roles:
+    - role: pi_hole

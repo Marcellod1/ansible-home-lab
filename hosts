@@ -1,2 +1,2 @@
-[plex_servers]
-docker.marcellodb.local
+[docker_servers]
+docker.marcellodb.local ansible_host=10.0.17.30
