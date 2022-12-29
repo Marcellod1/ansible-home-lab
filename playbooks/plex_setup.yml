@@ -1,0 +1,6 @@
+- name: Configure Plex Media Server
+  hosts: all
+  gather_facts: false
+  become: true
+  roles:
+    - role: plex
